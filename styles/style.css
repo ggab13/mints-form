@@ -1,0 +1,244 @@
+
+body{
+  margin: auto 0;
+  text-align: center;
+  background: #eceef1;
+  font-size: 0.6rem;
+}
+.main {
+  width: 375px;
+  height: auto;  
+  margin:0 auto;
+}
+a{
+  text-decoration: none;
+  color:rgb(7, 137, 243);
+}
+header {  
+  text-align: right;  
+  margin: 0.5rem 1.5rem;  
+}
+header .sign-in{  
+  width: 16.5rem;
+  display: inline-flex;   
+  justify-content: space-between;       
+}
+header p {
+  font-size: 0.6rem;
+  color: rgb(87, 83, 83);
+}
+header a {
+  font-size: 0.6rem;  
+}
+
+header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;  
+  width: 5.7rem;
+  height: 1.8rem;  
+  color: white;
+  background-color: rgb(7, 137, 243);  
+  
+  border-style: solid;
+  border-width: 1px;
+  border-color:rgb(58, 57, 57);  
+  border-radius: 5%;
+  box-shadow:2px 2px 3px -2px  black;  
+}
+header button > .lock-icon {
+  display: inline-block;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-right: 6px;
+  background-image: url("../assets/padlock.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.logos .intuit-logo {
+    margin: 20px 0;
+    width: 118px;
+    height: 35px;
+    background-image: url(../assets/intuitAssetPack.png);
+  }
+  
+  .logos .smaller-logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logos .smaller-logos > .mint-logo {
+    width: 68px;
+    height: 25px;
+    background-image: url(../assets/intuitAssetPack.png);
+    background-position: 310px 27px;
+  }
+  
+  .logos .smaller-logos > .quickbooks-logo {
+    width: 128px;
+    height: 25px;
+    background-image: url(../assets/intuitAssetPack.png);
+    background-position: 448px 27px;
+    margin: 0 9px;
+  }
+  
+  .logos .smaller-logos > .turbotax-logo {
+    width: 103px;
+    height: 25px;
+    background-image: url(../assets/intuitAssetPack.png);
+    background-position: 562px 27px;
+  }
+  .form-container {
+  
+    /* Positioning */    
+
+    /* Display & Box Model */
+    display: inline-block;      
+    padding: 1.2rem;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color:rgb(170, 168, 168);    
+    border-bottom: none;
+    
+
+    /* Color */
+    background: white;
+    color: rgb(34, 33, 33);
+
+    /* Text */    
+    text-align: center;
+    font-size: 0.7rem;
+
+    /* Other */
+    cursor: pointer;     
+   
+  }
+  .form-container * {
+    margin-top: 0.9rem;   
+  }
+  
+  .form-header p{
+    font-size: 0.6rem;
+    margin-bottom: 0.2rem;
+  }
+  .form-header a{
+    
+    font-size: 0.7rem;
+  }
+  .form-container form p{
+    font-size: 0.5rem;
+    float: left;
+    margin-top: 0.2rem;
+  }
+  .form-container h2 {
+    font-size: 1rem;
+    margin-top: -0.8rem;
+  }
+  .form-container input{   
+   width: 95%;    
+  }
+  .form-container > form > label{
+    float: left;
+    
+  }
+  .create-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;  
+    width: 98%;
+    height: 2rem;  
+    color: white;
+    background-color: rgb(7, 137, 243);  
+    border-radius: 2%;  
+    box-shadow:2px 2px 3px -2px  black;
+    
+    
+  }
+  .create-form button > .lock-icon-create {    
+    margin: auto 0;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 6px;
+    background-image: url("../assets/padlock.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .form-footer{
+    font-size:0.55rem;
+    line-height: 0.8rem;
+    font-style: italic;
+    color:rgb(85, 84, 84);    
+  }
+  #captcha {
+    height: 2.5rem;   
+    font-size:0.5rem;    
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #b9b9b900;
+    color: rgb(170, 168, 168);   
+    border-style: solid;
+    border-width: 0.5px;
+    border-color:rgb(170, 168, 168);   
+    border-top: none;
+  }
+  .footer-links{
+    color: white;
+    list-style-type: none;
+    margin-top:  1.5rem;
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    
+  }
+  .footer-links li{
+    display: inline-block;
+    padding: 0.2rem;
+    
+  }
+  .footer-links li a{
+    color: rgb(42, 42, 42);
+  }
+  footer span{
+    color: rgb(42, 42, 42);
+  }
+  .privacy{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding: auto;
+    background-color: white;
+    height: 3rem;
+    width: 100%;
+    float: left;
+  }
+  .privacy a {
+    align-items: center;
+    margin: 1rem;
+    float: left;
+    font-size: 0.7rem;
+  }
+  input:focus{
+    box-shadow: 1px 1px 5px 0.5px   rgb(25, 145, 224);
+  }
+ 
